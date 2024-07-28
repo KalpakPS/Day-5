@@ -1,0 +1,16 @@
+h3{
+    font-size: 15px;
+    color: #878787;
+    padding-top: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h4{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2px 0px;
+    color: #ffffff;
+}
+footer{
+    background-color: #212121;
+    height: 20rem;
+}
