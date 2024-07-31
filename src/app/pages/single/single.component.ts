@@ -10,14 +10,14 @@ import { ApiService } from '../../api.service';
   styleUrl: './single.component.css'
 })
 export class SingleComponent {
-  constructor(private routerId: ActivatedRoute, private api: ApiService) {}
+  constructor(private routeId: ActivatedRoute, private api: ApiService) {}
   data:any=[]
 
   ngOnInit() {
     this.api.getProducts().subscribe((res: any) => {
-      let id = this.routerId.snapshot.paramMap.get('id')
+      let id = this.routeId.snapshot.paramMap.get("id")
       let response = res
-      let product = response.filter((e: any) => e.id === id)
+      let product = response.filter((e: any) => e.id == id)
       this.data = product[0]
       
     })
