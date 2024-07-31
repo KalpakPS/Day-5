@@ -1,6 +1,7 @@
 img{
     width: 250px;
     height: 250px;
+    mix-blend-mode: multiply;
 }
 .card-title{
     height: 50px;
