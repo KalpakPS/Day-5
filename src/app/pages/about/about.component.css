@@ -1,0 +1,34 @@
+.about-us {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h2 {
+    color: #007bff;
+}
+
+.about-us h3 {
+    color: #343a40;
+    margin-top: 20px;
+}
+
+.about-us p, .about-us ul {
+    line-height: 1.6;
+}
+
+.about-us ul {
+    padding-left: 20px;
+}
+
+.about-us ul li {
+    margin-bottom: 10px;
+}
+
+.about-us a {
+    color: #007bff;
+    text-decoration: none;
+}
